@@ -1,0 +1,52 @@
+s = "What we think we can become we" 
+sub_str = "we"
+occurrence = 3
+val = 0
+
+for i in range(0, occurrence): 
+    val = s.find(sub_str, val + 1) 
+    print ("index at", val)   
+
+
+
+
+
+string = "THIS IS GOOD!"
+print(string.isupper());
+
+string = "THIS IS ALSO G00D!"
+print(string.isupper());
+
+string = "THIS IS not GOOD!"
+print(string.isupper());
+
+string = "THIS IS 121not GOOD!"
+print(string.isupper());
+
+
+string = "TH#@IS IS not GOOD!"
+print(string.isupper());
+
+
+string = "2222222a"
+print(string.islower());
+
+string = "this is good!"
+print(string.islower());
+
+string = "this is also g00d!"
+print(string.islower());
+
+string = "this is not good!"
+print(string.islower());
+
+string = "THIS IS 121not GOOD!"
+print(string.islower());
+
+
+string = "TH#@IS IS not GOOD!"
+print(string.islower());
+
+
+string = "2222222A"
+print(string.islower());
